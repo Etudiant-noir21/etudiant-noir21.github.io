@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    background-size: 80%;
+    color: white;
+    width: 600px;
+}
+img{
+    width: 100px;
+    height: 70px;
+    border-radius: 100%;
+}
+.p2{
+    color: hsl(75, 94%, 57%);
+
+}
+.p3{
+    position: relative;
+    top: -1rem;
+    font-size: 10px;
+    
+    
+
+}
+.profile{
+    text-align: center;
+}
+.social{
+    text-align: center;
+    padding: 5px;
+}
+.pp{
+    background-color: hsl(0, 0%, 20%);
+    padding: 1px;
+    border: 5px solid hsl(0, 0%, 12%);
+    border-radius: 15px;
+    width: 50%;
+    position: relative;
+    left: 5rem;
+    top: -1.5rem;
+    line-height: 10px;
+}
+.pl{
+    line-height: 10px;
+}
+.p2{
+    position: relative;
+    top: -0.5rem;
+}
+.profile .p3{
+    line-height: 40px;
+}
+fieldset{
+    background-color: hsl(0, 0%, 12%);
+    width: 50%;
+     margin-left: 25rem;
+     border: 0px;
+     border-radius: 5%;
+     margin-top: 100px;
+     position: relative;
+     top: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.pp:hover{
+    background-color: hsl(121, 94%, 57%);
+    color: hsl(121, 94%, 57%);
+}
+@media screen and(max-width:1500px) and (min-width:300px){
+    body{
+        width: 500px;
+    }
+    fieldset{
+        background-color: hsl(0, 0%, 12%);
+        width: 400px;
+    }
+    }
+
+        
+    
+    
